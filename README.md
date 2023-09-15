@@ -63,4 +63,4 @@ Tested on a host running Centos 7 System
 ```
 
 ## Thanks
-This scripting tool references [Kafka-install](https://www.conduktor.io/kafka/how-to-install-apache-kafka-on-linux/), [kafka-doc](https://kafka.apache.org/08/ documentation.html), etc., excellent articles that provided me with good ideas.
+This scripting tool references [Kafka-install](https://www.conduktor.io/kafka/how-to-install-apache-kafka-on-linux/), [kafka-doc](https://kafka.apache.org/08/documentation.html), etc., excellent articles that provided me with good ideas.
