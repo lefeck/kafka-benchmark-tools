@@ -11,7 +11,7 @@ Tested on a host running Centos 7 System
 
 ## Basic Usage
 ```
-[root@docker benchmark]# bash kafka-benchmark-tools.sh -h
+[root@localhost benchmark]# bash kafka-benchmark-tools.sh -h
  Usage: kafka-benchmark-tools.sh [-h] [-v] [-m] [-l] [-t] [-z] [-k] [-n] [-p] [-u] [-w] [-a]
 
  💁 This is a scripting tool to test the performance of kafka.
@@ -36,7 +36,7 @@ Tested on a host running Centos 7 System
 ### Example
 
 ```shell
-[root@docker benchmark]# bash  kafka-benchmark-tools.sh  -l ZingJDK -k 192.168.10.218,192.168.10.219,192.168.10.220 -z 192.168.10.122 -t 1
+[root@localhost benchmark]# bash  kafka-benchmark-tools.sh  -l ZingJDK -k 192.168.10.218,192.168.10.219,192.168.10.220 -z 192.168.10.122 -t 1
 [2023-09-15 15:45:42] 👶 Starting up...
 [2023-09-15 15:45:42] 📁 Created temporary working directory /tmp/tmp.aAWuCrRtbo
 [2023-09-15 15:45:42] 👍 Simulate kafka's current benchmarking the 1 time
